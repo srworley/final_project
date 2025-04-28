@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ancient Roman Art</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        header {
+            background-image: url(roman.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        h1 {
+            background-color: #591202;
+            width: 450px;
+            height: 50px;
+            border-radius: 20px;
+            padding: 15px;
+            left: 400px;
+            top: 40px;
+        }
+
+        aside {
+            width: 775px;
+            height: 420px;
+            background-color: none;
+            position: absolute;
+            top: 25px;
+            left: 475px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        @media screen and (max-width: 900px) {
+            h1 {
+                left: 0px;
+                top: 0px;
+            }
+
+            nav a {
+                padding-right: 50px;
+                padding-left: 55px;
+            }
+
+            .wrapper {
+                flex-direction: column;
+                height: 1270px;
+            }
+
+            article {
+                height: 375px;
+            }
+
+            aside {
+                width: 355px;
+                height: 700px;
+                top: 485px;
+                left: 25px;
+            }
+
+            .card {
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Art of Ancient Rome</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="greece.html">Greece</a>
+        <a href="rome.html">Rome</a>
+    </nav>
+    <div class="wrapper">
+        <article>
+            <h2>Ancient Roman Art</h2>
+            <p>The Romans did not believe, as we do today, that to have a copy of an artwork was of any less value that to have the original. The copies, however, were more often variations rather than direct copies, and they had small changes made to them.</p>
+            <p>Roman art encompasses private art made for Roman homes as well as art in the public sphere. The elite Roman home provided an opportunity for the owner to display his wealth, taste and education to his visitors, dependents, and clients. Since Roman homes were regularly visited and were meant to be viewed, their decoration was of the utmost importance. Wall paintings, mosaics, and sculptural displays were all incorporated seamlessly with small luxury items such as bronze figurines and silver bowls. The subject matter ranged from busts of important ancestors to mythological and historical scenes, still lifes, and landscapes—all to create the idea of an erudite patron steeped in culture.</p>
+        </article>
+        <aside>
+            <div class="card" style="background-image: url(rome1.jpg);"></div>
+            <div class="card" style="background-image: url(rome2.jpg);"></div>
+            <div class="card" style="background-image: url(rome3.jpg);"></div>
+            <div class="card" style="background-image: url(rome4.jpg);"></div>
+            <div class="card" style="background-image: url(rome5.jpg);"></div>
+            <div class="card" style="background-image: url(rome6.jpg);"></div>
+            <div class="card" style="background-image: url(rome7.jpg);"></div>
+            <div class="card" style="background-image: url(rome8.jpg);"></div>
+        </aside>
+    </div>
+    <footer>Created by Sarah Worley 2025</footer>
+</body>
+</html>

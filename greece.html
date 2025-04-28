@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ancient Greek Art</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        header {
+            background-image: url(greek.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        h1 {
+            background-color: #591202;
+            width: 450px;
+            height: 50px;
+            border-radius: 20px;
+            padding: 15px;
+            left: 400px;
+            top: 40px;
+        }
+
+        aside {
+            width: 775px;
+            height: 420px;
+            background-color: none;
+            position: absolute;
+            top: 25px;
+            left: 475px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        @media screen and (max-width: 900px) {
+            h1 {
+                left: 0px;
+                top: 0px;
+            }
+
+            nav a {
+                padding-right: 50px;
+                padding-left: 55px;
+            }
+
+            .wrapper {
+                flex-direction: column;
+                height: 1270px;
+            }
+
+            article {
+                height: 375px;
+            }
+
+            aside {
+                width: 355px;
+                height: 700px;
+                top: 485px;
+                left: 25px;
+            }
+
+            .card {
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Art of Ancient Greece</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="greece.html">Greece</a>
+        <a href="rome.html">Rome</a>
+    </nav>
+    <div class="wrapper">
+        <article>
+            <h2>Ancient Greek Art</h2>
+            <p>Greek artists of the fifth and fourth centuries B.C. attained a manner of representation that conveys a vitality of life as well as a sense of permanence, clarity, and harmony.</p>
+            <p>The fifth century B.C. is often referred to as the Golden Age of Greece, particularly of Athens. Significant achievements were made in Attic vase painting. Most notably, the red-figure technique superseded the black-figure technique, and with that, great strides were made in portraying the human body, clothed or naked, at rest or in motion.</p>
+            <p>The sculpture of ancient Greece first took inspiration from Egyptian and Near Eastern art, and evolved into a uniquely Greek vision. Greek artists captured the human form in a way never before seen where sculptors were particularly concerned with proportion, poise, and the idealised perfection of the human body.</p>
+        </article>
+        <aside>
+            <div class="card" style="background-image: url(greek1.jpg);"></div>
+            <div class="card" style="background-image: url(greek2.jpg);"></div>
+            <div class="card" style="background-image: url(greek3.jpg);"></div>
+            <div class="card" style="background-image: url(greek4.jpg);"></div>
+            <div class="card" style="background-image: url(greek5.jpg);"></div>
+            <div class="card" style="background-image: url(greek6.jpg);"></div>
+            <div class="card" style="background-image: url(greek7.jpg);"></div>
+            <div class="card" style="background-image: url(greek8.jpg);"></div>
+        </aside>
+    </div>
+    <footer>Created by Sarah Worley 2025</footer>
+</body>
+</html>
